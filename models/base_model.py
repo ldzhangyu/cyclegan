@@ -140,7 +140,6 @@ class BaseModel(ABC):
             if isinstance(name, str):
                 errors_ret[name] = float(getattr(self, 'loss_' + name))  # float(...) works for both scalar tensor and float number
         return errors_ret
-
     def save_networks(self, epoch):
         """Save all the networks to the disk.
 
@@ -197,6 +196,10 @@ class BaseModel(ABC):
                 for key in list(state_dict.keys()):  # need to copy keys here because we mutate in loop
                     self.__patch_instance_norm_state_dict(state_dict, net, key.split('.'))
                 net.load_state_dict(state_dict)
+                #zhangyu
+                #example_input = torch.rand(1, 3, 256, 256)  # after test, will get 'size mismatch' error message with size 256x256
+                #traced_model = torch.jit.trace(net, example_input)
+                #traced_model.save("model2.pt")
 
     def print_networks(self, verbose):
         """Print the total number of parameters in the network and (if verbose) network architecture

@@ -55,6 +55,7 @@ def save_image(image_numpy, image_path, aspect_ratio=1.0):
     """
 
     image_pil = Image.fromarray(image_numpy)
+    image_pil.show()
     h, w, _ = image_numpy.shape
 
     if aspect_ratio > 1.0:

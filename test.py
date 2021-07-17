@@ -33,7 +33,6 @@ from models import create_model
 from util.visualizer import save_images
 from util import html
 
-
 if __name__ == '__main__':
     opt = TestOptions().parse()  # get test options
     # hard-code some parameters for test
