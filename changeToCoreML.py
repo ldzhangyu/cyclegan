@@ -9,6 +9,8 @@ import coremltools as ct
 import torch.nn as nn
 from PIL import Image
 import util.util
+from coremltools.models.neural_network.quantization_utils import *
+
 
 def __patch_instance_norm_state_dict(state_dict, module, keys, i=0):
     """Fix InstanceNorm checkpoints incompatibility (prior to 0.4)"""
@@ -24,26 +26,14 @@ def __patch_instance_norm_state_dict(state_dict, module, keys, i=0):
     else:
         __patch_instance_norm_state_dict(state_dict, getattr(module, key), keys, i + 1)
 
-path = './model2.pt'
+path = './model_for_coreml.pt'
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 scriptMode = torch.jit.load(path)
 
 
-imgPath = '/Users/zhangyu/python/cyclegan/datasets/bitmoji/testOne/epoch020_real_A.png'
-img = Image.open(imgPath).convert('RGB')
-transform1 = transforms.Compose([
-    transforms.ToTensor(),  # range [0, 255] -> [0.0,1.0] and convert [H,W,C] to [C,H,W]
-    transforms.Normalize([0.5,0.5,0.5],[0.5,0.5,0.5])
-])
-img = transform1(img)  # 归一化到 [-1.0,1.0],并转成[C,H,W]
-tup1 = (img,)
-img = torch.stack(tup1, 0, out=None)
 
 scriptMode.eval()
-# img = scriptMode.forward(img)
-# img = util.util.tensor2im(img)
-# img = Image.fromarray(img)
-# img.show()
+
 
 example_input = torch.rand(1, 3, 256, 256) # after test, will get 'size mismatch' error message with size 256x256
 
@@ -54,9 +44,26 @@ model = ct.convert(
 )
 
 
+line_quant_model_8 = quantize_weights(model, 8, "linear")
 
-model.save("cyclegan.mlmodel")
 
+line_quant_model_8.save('Cyclegan.mlmodel')
+
+#model.save("Cyclegan.mlmodel")
+
+# #imgPath = '/Users/zhangyu/python/cyclegan/datasets/bitmoji/testOne/epoch020_real_A.png'
+# img = Image.open(imgPath).convert('RGB')
+# transform1 = transforms.Compose([
+#     transforms.ToTensor(),  # range [0, 255] -> [0.0,1.0] and convert [H,W,C] to [C,H,W]
+#     transforms.Normalize([0.5,0.5,0.5],[0.5,0.5,0.5])
+# ])
+# img = transform1(img)  # 归一化到 [-1.0,1.0],并转成[C,H,W]
+# tup1 = (img,)
+# img = torch.stack(tup1, 0, out=None)
+# img = scriptMode.forward(img)
+# img = util.util.tensor2im(img)
+# img = Image.fromarray(img)
+# img.show()
 #traced_model = torch.jit.trace(net, example_input)
 #traced_model.save("model2.pt")
 

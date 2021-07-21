@@ -197,9 +197,9 @@ class BaseModel(ABC):
                     self.__patch_instance_norm_state_dict(state_dict, net, key.split('.'))
                 net.load_state_dict(state_dict)
                 #zhangyu
-                #example_input = torch.rand(1, 3, 256, 256)  # after test, will get 'size mismatch' error message with size 256x256
-                #traced_model = torch.jit.trace(net, example_input)
-                #traced_model.save("model2.pt")
+                example_input = torch.rand(1, 3, 256, 256)  # after test, will get 'size mismatch' error message with size 256x256
+                traced_model = torch.jit.trace(net, example_input)
+                traced_model.save("model_for_coreml.pt")
 
     def print_networks(self, verbose):
         """Print the total number of parameters in the network and (if verbose) network architecture
