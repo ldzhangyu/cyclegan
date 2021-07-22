@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="372c29a2-90f5-4d10-9bf7-850ff3e01b26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testCoreML.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cyclegan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cyclegan.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changeToCoreML.py" beforeDir="false" afterPath="$PROJECT_DIR$/changeToCoreML.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoints/bitmoji_cyclegan/latest_net_G.pth" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoints/bitmoji_cyclegan/latest_net_G.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyclegan.mlmodel" beforeDir="false" afterPath="$PROJECT_DIR$/cyclegan.mlmodel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/bitmoji/testOne/epoch020_real_A.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/bitmoji/testOne/new_0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/base_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/bitmoji_cyclegan/test_latest/images/0000_fake.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/bitmoji_cyclegan/test_latest/images/0000_fake.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/bitmoji_cyclegan/test_latest/images/0001_fake.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/bitmoji_cyclegan/test_latest/images/0001_fake.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/bitmoji_cyclegan/test_latest/images/0002_fake.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/bitmoji_cyclegan/test_latest/images/0002_fake.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CycleGAN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CycleGAN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCustomStyleTransfer.mlmodel" beforeDir="false" afterPath="$PROJECT_DIR$/MyCustomStyleTransfer.mlmodel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/bitmoji/epoch020_real_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_for_coreml.pt" beforeDir="false" afterPath="$PROJECT_DIR$/model_for_coreml.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/bitmoji_cyclegan/test_latest/images/epoch020_real_A_fake.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/bitmoji_cyclegan/test_latest/images/epoch020_real_A_fake.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/bitmoji_cyclegan/test_latest/images/new_0001_fake.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/bitmoji_cyclegan/test_latest/images/new_0001_fake.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/bitmoji_cyclegan/test_latest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/results/bitmoji_cyclegan/test_latest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style-transfer.model/dir_archive.ini" beforeDir="false" afterPath="$PROJECT_DIR$/style-transfer.model/dir_archive.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style-transfer.model/m_1c3c1c67dfce15a6.0000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style-transfer.model/m_1c3c1c67dfce15a6.frame_idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style-transfer.model/m_1c3c1c67dfce15a6.sidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style-transfer.model/objects.bin" beforeDir="false" afterPath="$PROJECT_DIR$/style-transfer.model/objects.bin" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,80 +35,6 @@
     <SUITE FILE_PATH="coverage/cyclegan$change4.coverage" NAME="CoreML Coverage Results" MODIFIED="1626510278461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cyclegan$testCoreML.coverage" NAME="testCoreML Coverage Results" MODIFIED="1626743690269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cyclegan$dataHandle.coverage" NAME="dataHandle Coverage Results" MODIFIED="1626244780625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="2131965998">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Chameleon" value="4" />
-          <entry key="IPNB" value="1" />
-          <entry key="Markdown" value="1" />
-          <entry key="Python" value="135" />
-          <entry key="PythonStub" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="5652" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/networks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5155">
-              <caret line="114" selection-start-line="114" selection-end-line="114" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testCoreML.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///opt/anaconda3/lib/python3.8/site-packages/turicreate/toolkits/_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="505" column="8" selection-start-line="505" selection-start-column="8" selection-end-line="505" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///opt/anaconda3/lib/python3.8/site-packages/turicreate/toolkits/style_transfer/style_transfer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="326" column="8" selection-start-line="326" selection-start-column="8" selection-end-line="326" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -189,6 +115,7 @@
     <option name="width" value="1858" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectId" id="1vcE1SQvu1oPRxL7RY3JPvRA0UF" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -215,12 +142,16 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -230,18 +161,6 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Python.testCoreML">
     <configuration name="CoreML" type="PythonConfigurationType" factoryName="Python">
       <module name="cyclegan" />
@@ -250,7 +169,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/opt/anaconda3/bin/python3" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -272,7 +191,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/opt/anaconda3/bin/python3" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -316,7 +235,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/opt/anaconda3/bin/python3" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -338,7 +257,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/opt/anaconda3/bin/python3" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -360,7 +279,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/opt/anaconda3/bin/python3" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -382,7 +301,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/opt/anaconda3/bin/python3" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -407,6 +326,7 @@
       <item itemvalue="Python.train" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -417,6 +337,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625736289694</updated>
+      <workItem from="1626852765925" duration="2697000" />
     </task>
     <servers />
   </component>
@@ -457,10 +378,15 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cyclegan$tset2222.coverage" NAME="tset2222 Coverage Results" MODIFIED="1626854445115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cyclegan$testCoreML.coverage" NAME="testCoreML Coverage Results" MODIFIED="1626854870698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cyclegan$test.coverage" NAME="test Coverage Results" MODIFIED="1626854464263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
