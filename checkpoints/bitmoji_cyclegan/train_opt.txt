@@ -2,7 +2,7 @@
                batch_size: 1                             
                     beta1: 0.5                           
           checkpoints_dir: ./checkpoints                 
-           continue_train: True                          	[default: False]
+           continue_train: False                         
                 crop_size: 256                           
                  dataroot: ./datasets/bitmoji            	[default: None]
              dataset_mode: unaligned                     
