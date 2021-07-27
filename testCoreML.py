@@ -1,5 +1,5 @@
 import turicreate as tc
-
+import coremltools
 # Load the style and content images
 styles = tc.load_images('./datasets/style/style/')
 content = tc.load_images('./datasets/style/content/')
